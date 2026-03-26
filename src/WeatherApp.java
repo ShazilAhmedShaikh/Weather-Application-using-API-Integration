@@ -34,7 +34,7 @@ public class WeatherApp {
     // --- AAPKA MAIN LOGIC METHOD ---
     public static WeatherAppResponse getWeatherData(String city) throws Exception {
         // YAHAN APNI API KEY DALEIN
-        String apiKey = "7b2666f115e43f8e3fcfe13383273227";
+        String apiKey ="USE YOUR API KEY HERE";
         // Check karein ke city ke baad .replace laga hua hai ya nahi
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city.replace(" ", "%20") + "&appid=" + apiKey + "&units=metric";
 
